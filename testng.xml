@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Whalebone QA Assignment Test Suite">
+    <test name="NHL Teams API and Web Tests">
+        <classes>
+            <class name="com.whalebone.tests.NHLTeamsTestSuite"/>
+        </classes>
+    </test>
+    <test name="uitestingplayground Sample App Tests">
+        <classes>
+            <class name="com.whalebone.tests.UitestingplaygroundSampleAppTestSuite"/>
+        </classes>
+    </test>
+    <test name="uitestingplayground Tests">
+        <classes>
+            <class name="com.whalebone.tests.UitestingplaygroundTestSuite"/>
+        </classes>
+    </test>
+</suite>
